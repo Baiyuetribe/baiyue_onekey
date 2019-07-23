@@ -6,6 +6,21 @@
 
 <h1 align="center">Baiyue_Onekey</h1>
 
+<p align="center">
+  借助Docker,在任意设备，共享和运行任何应用程序
+  <br>
+  <a href="https://book.baiyue.one/"><strong>查看官方文档（待完善）</strong></a>
+  <br>
+  <br>
+  <a href="https://github.com/Baiyuetribe/baiyue_onekey/issues/new?template=bug.md">反馈 bug</a>
+  ·
+  <a href="https://github.com/Baiyuetribe/baiyue_onekey/issues/new?template=feature.md&labels=feature">提交 功能</a>
+  ·
+  <a href="https://mall.baiyue.one/">Shop</a>
+  ·
+  <a href="https://baiyue.one/">Blog</a>
+</p>
+
 
 
 ## 项目介绍：
@@ -39,3 +54,4 @@ bash <(curl -L -s https://raw.githubusercontent.com/Baiyuetribe/baiyue_onekey/ma
 - [PWD简介与妙用(一个免费、随时可用的Docker实验室)](https://baiyue.one/archives/472.html)
 
 请自行挂梯子。
+
