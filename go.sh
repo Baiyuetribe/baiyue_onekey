@@ -77,11 +77,30 @@ install_nextcloud(){
 }
 
 install_ysfaka(){
+    install_docker
     mkdir ysfaka && cd ysfaka
     wget https://raw.githubusercontent.com/Baiyuetribe/ysfaka/master/docker-compose.yml
     docker-compose up -d
     echo "访问域名或ip"
 }
+
+install_card_system(){
+    install_docker
+    mkdir card && cd card
+    wget https://raw.githubusercontent.com/Baiyuetribe/card-system/Docker/docker-compose.yml
+    docker-compose up -d
+    green "等待初始化"
+    sleep 8s
+    docker exec -it card php artisan key:generate
+    sleep 2s
+    docker exec -it card php artisan migrate:fresh --seed
+    sleep 5s
+    docker exec -it card php artisan cache:clear
+    green "搭建成功，默认账户admin@qq.com;默认密码：123456"
+    echo "地址：http://ip:3007"
+    
+}
+
 install_oneindex(){
     install_docker
     docker run -d -p 8181:80 --restart=always baiyuetribe/oneindex
@@ -339,7 +358,7 @@ start_menu(){
     install_ysfaka
 	;;
     603)
-    echo "新版正在完善中"
+    install_card_system
 	;;
     701)
     install_forsaken
