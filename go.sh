@@ -98,6 +98,8 @@ install_card_system(){
     docker exec -it card php artisan cache:clear
     green "搭建成功，默认账户admin@qq.com;默认密码：123456"
     echo "地址：http://ip:3007"
+    echo "默认源码位置：/opt/card/html"
+    echo "默认数据存档：/opt/card/mysql"
     
 }
 
