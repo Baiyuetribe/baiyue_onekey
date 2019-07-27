@@ -49,9 +49,14 @@ bash <(curl -L -s https://raw.githubusercontent.com/Baiyuetribe/baiyue_onekey/ma
 
 服务器：至少512M内存。
 
-## 如果你没有服务器，可以到Docker官方提供的免费服务器进行测试
+## 如果你没有服务器,试试下面几个渠道
+
+### PWD,是Docker官方提供的免费服务器进行测试(WEB网页，开箱即用)
 
 - [PWD简介与妙用(一个免费、随时可用的Docker实验室)](https://baiyue.one/archives/472.html)
 
 请自行挂梯子。
 
+### win10系统安装wsl2代[win10微软商店内置的linux系统] （本地环境，安装不足一分钟）
+
+- 微软win10系统wsl2安装教程（附三个实例应用场景）(https://baiyue.one/archives/1140.html)
