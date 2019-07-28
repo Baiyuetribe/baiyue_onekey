@@ -60,3 +60,10 @@ bash <(curl -L -s https://raw.githubusercontent.com/Baiyuetribe/baiyue_onekey/ma
 ### win10系统安装wsl2代[win10微软商店内置的linux系统] （本地环境，安装不足一分钟）
 
 - 微软win10系统wsl2安装教程（附三个实例应用场景）(https://baiyue.one/archives/1140.html)
+
+## 更新日志
+
+2019-7-28 更新meedu
+2019-7-27 添加win10系统安装wsl2子系统方法
+2019-7-25 增加风铃发卡一键安装
+2019-7-23 初步完成25+优质开源项目一键安装脚本
