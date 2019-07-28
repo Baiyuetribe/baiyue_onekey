@@ -91,11 +91,11 @@ install_card_system(){
     docker-compose up -d
     green "等待初始化"
     sleep 8s
-    docker exec -it card php artisan key:generate
+    docker exec card php artisan key:generate
     sleep 2s
-    docker exec -it card php artisan migrate:fresh --seed
+    docker exec card php artisan migrate:fresh --seed
     sleep 5s
-    docker exec -it card php artisan cache:clear
+    docker exec card php artisan cache:clear
     green "搭建成功，默认账户admin@qq.com;默认密码：123456"
     echo "地址：http://ip:3007"
     echo "默认源码位置：/opt/card/html"
