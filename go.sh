@@ -90,7 +90,7 @@ install_card_system(){
     wget https://raw.githubusercontent.com/Baiyuetribe/card-system/Docker/docker-compose.yml
     docker-compose up -d
     green "等待初始化"
-    sleep 8s
+    sleep 16s
     docker exec card php artisan key:generate
     sleep 2s
     docker exec card php artisan migrate:fresh --seed
