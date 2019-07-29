@@ -29,7 +29,7 @@
 
 **欢迎star 点赞支持一下**
 
-## 运行命令
+## 一键脚本
 
 ```
 bash <(curl -L -s https://raw.githubusercontent.com/Baiyuetribe/baiyue_onekey/master/go.sh)
