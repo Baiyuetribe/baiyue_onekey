@@ -57,9 +57,11 @@ bash <(curl -L -s https://raw.githubusercontent.com/Baiyuetribe/baiyue_onekey/ma
 
 请自行挂梯子。
 
-### win10系统安装wsl2代[win10微软商店内置的linux系统] （本地环境，安装不足一分钟）
+### win10子系统Ubuntu安装wsl2代[微软商店内置linux系统] （本地环境，安装不足一分钟）
 
-- 微软win10系统wsl2安装教程（附三个实例应用场景）(https://baiyue.one/archives/1140.html)
+- [win10子系统Ubuntu安装教程（附三个实例应用场景）](https://baiyue.one/archives/1140.html)
+- [WIN10子系统Ubuntu安装可视化桌面(xfce4、MATE和KDE)教程](https://baiyue.one/archives/1152.html)
+- [WIN10子系统Ubuntu（wsl2）开启自带的SSH服务](https://baiyue.one/archives/1160.html)
 
 ## 更新日志
 
