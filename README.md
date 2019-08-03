@@ -65,6 +65,8 @@ bash <(curl -L -s https://raw.githubusercontent.com/Baiyuetribe/baiyue_onekey/ma
 
 ## 更新日志
 
+2019-8-3 添加全网VIP解析视频（703）
+
 2019-7-28 更新meedu
 
 2019-7-27 添加win10系统安装wsl2子系统方法
