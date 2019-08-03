@@ -1,0 +1,422 @@
+<!--
+
+=========================================================
+* VIP视频云解析 - v1.1.0
+=========================================================
+
+* Product Page: 
+* Copyright 2019 baiyue.one (https://baiyue.one)
+* Licensed under MIT 
+
+* Coded by azure0000
+
+=========================================================
+ -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="全网VIP影视会员解析"
+      content="支持爱奇艺、优酷、土豆、乐视、搜狐等视频解析."
+    />
+    <meta name="azure0000" content="VIP影视会员" />
+    <title>VIP视频云解析</title>
+    <!-- Favicon -->  
+    <link
+      href="../assets/vendor/font-awesome/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      type="text/css"
+      href="../assets/css/argon.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header-global">
+      <nav
+        id="navbar-main"
+        class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom"
+      >
+        <div class="container">
+          <a class="navbar-brand mr-lg-5" href="https://baiyue.one"
+            >
+            <a class="navbar-brand smooth " style="font-size: large" href="/">VIP视频云解析</a>
+            <!--
+                <img src="../assets/img/brand/white.png"/></a>
+            -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbar_global"
+            aria-controls="navbar_global"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="navbar_global">
+            
+            <ul class="navbar-nav align-items-lg-center ml-lg-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link nav-link-icon"
+                  href="https:/mall.baiyue.one"
+                  target="_blank"
+                  data-toggle="tooltip"
+                  title="See more shops"
+                >
+                  <i class="fa fa-shopping-cart"></i>
+                  <span class="nav-link-inner--text d-lg-none">mall</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link nav-link-icon"
+                  href="https://www.youtube.com/channel/UCWaS7VDRSGLj0SZXMCwiUiQ/videos"
+                  target="_blank"
+                  data-toggle="tooltip"
+                  title="Follow us on Youtube"
+                >
+                  <i class="fa fa-youtube"></i>
+                  <span class="nav-link-inner--text d-lg-none">Youtube</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link nav-link-icon"
+                  href="https://space.bilibili.com/97254526"
+                  target="_blank"
+                  data-toggle="tooltip"
+                  title="Follow us on Bilibili"
+                >
+                  <i class="fa fa-viadeo-square"></i>
+                  <span class="nav-link-inner--text d-lg-none">Bilibili</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link nav-link-icon"
+                  href="https://github.com/baiyuetribe"
+                  target="_blank"
+                  data-toggle="tooltip"
+                  title="Star us on Github"
+                >
+                  <i class="fa fa-github"></i>
+                  <span class="nav-link-inner--text d-lg-none">Github</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!---->
+    <main class="profile-page">
+      <section class="section-profile-cover section-shaped my-0">
+        <!-- Circles background -->
+        <div class="shape shape-style-1 shape-primary alpha-4">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <!-- SVG separator -->
+        <div class="separator separator-bottom separator-skew">
+          <svg
+            x="0"
+            y="0"
+            viewBox="0 0 2560 100"
+            preserveAspectRatio="none"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <polygon
+              class="fill-white"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container" >
+          <div class="card card-profile shadow mt--300 ">
+            <div class="px-4">
+              <div class="row justify-content-center">
+                <div class="col-lg-3 order-lg-2">
+                  <div class="card-profile-image">
+                    <a href="#">
+                      <img
+                        src="../assets/img/logo.png"
+                        class="rounded-bottom"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="col-lg-4 order-lg-3 text-lg-right align-self-lg-center"
+                >
+
+                  <div class="card-profile-actions py-4 mt-lg-0">
+                        
+                        <a href="#" class="btn btn-sm btn-google-plus mr-4" data-toggle="popover" title="说明" data-content="VIY云解析调用接口均为GitHub开源库，相关视频内容，非原始视频存档，内容大多为720p的高清视频。">说明</a>
+                        <a href="#" class="btn btn-sm btn-default float-right" data-toggle="popover" title="帮助" data-content="使用方法：复制任意视频网站VIP链接，粘贴到视频地址栏，点击开始解析即可。">帮助</a>
+
+
+                  </div>
+                </div>
+                <div class="col-lg-4 order-lg-1">
+                  <div class="card-profile-stats d-flex justify-content-center">
+                    <div>
+                      <span class="heading">22</span>
+                      <span class="description">解析线路</span>
+                    </div>
+                    <div>
+                      <span class="heading">8+</span>
+                      <span class="description">视频网站</span>
+                    </div>
+                    <div>
+                      <span class="heading">1+</span>
+                      <span class="description">全平台</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="hr mt-4"></div>
+              <form>
+                    <div class="form-group row">
+                      <span class="col-sm-2 col-form-label text-right">请选择API:</span>
+                      <div class="col-sm-10">
+                          <select id="api" name="api" class="form-control"></select>
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                            <span class="col-sm-2 col-form-label text-right ">视频地址:</span>
+                      <div class="col-sm-10">
+                        <input type="" class="form-control" id="url" placeholder="视频地址">
+                      </div>
+                    </div>
+                    <div class=" text-center">
+                            <button id="play" class="btn btn-primary btn-round"
+                              ><i class="fa fa-send-o"></i> 开 始 解 析</button
+                            >
+                          </div>
+
+                  </form>
+
+                  <div class="main text-center sr-only sr-only-focusable">
+                      <div class="form-horizontal">
+                        <div class="form-group">
+                          <div class="col-sm-10">
+                            <textarea rows="10" id="apiList" class="form-control">http://api.baiyug.vip/index.php?url=
+                http://www.82190555.com/index/qqvod.php?url=
+                http://jiexi.071811.cc/jx2.php?url=
+                http://beaacc.com/api.php?url=
+                http://qxkkk.bid/jx/jx.php?url=
+                http://o8ve.cn/1/?url=
+                http://api.xyingyu.com/?url=
+                http://api.greatchina56.com/?url=
+                http://jx.618g.com/?url=
+                http://api.baiyug.vip/index.php?url=
+                http://api.xyingyu.com/?url=
+                http://jx.iaeec.cn/jx.php/?url=
+                https://api.flvsp.com/?url=
+                http://jiexi.071811.cc/jx2.php?url=
+                http://www.82190555.com/index/qqvod.php?url=
+                https://api.flvsp.com/?url=
+                http://www.82190555.com/index/qqvod.php?url=
+                http://2gty.com/apiurl/yun.php?url=
+                http://v.2gty.com/apiurl/yun.php?url=</textarea>
+                          </div>
+                        </div>
+                        </div>
+                      </div> 
+                  
+
+              <div class="mt-5 py-5 border-top text-center">
+                <div class="row justify-content-center">
+                  <div class="col-sm-9">
+                                           
+                      <a class="btn btn-success mt-3" href="http://www.le.com/" rel="nofollow" target="_blank">乐视视频</a>
+                      <a class="btn btn-danger mt-3" href="http://www.iqiyi.com/" rel="nofollow" target="_blank">奇艺视频</a>                      
+                      <a class="btn btn-info mt-3" href="http://www.mgtv.com/" rel="nofollow" target="_blank">芒果视频</a>
+                      <a class="btn btn-warning  mt-3" href="http://www.tudou.com/" rel="nofollow" target="_blank">土豆视频</a>		
+                                      
+                  <br>
+                  <div class="hr "></div>                                
+                      <a class="btn btn-primary mt-3" href="http://v.qq.com/" rel="nofollow" target="_blank">腾讯视频</a>		
+                      <a class="btn btn-info mt-3" href="http://www.youku.com/" rel="nofollow" target="_blank">优酷视频</a>
+                      <a class="btn btn-success mt-3" href="http://tv.sohu.com/" rel="nofollow" target="_blank">搜狐视频</a>
+                      <a class="btn btn-primary mt-3" href="http://www.pptv.com/" rel="nofollow" target="_blank">pptv视频</a>
+                 
+                
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row row-grid align-items-center mb-5">
+          <div class="col-lg-6">
+            <h3 class="text-primary font-weight-light mb-2">
+              Thank you for supporting us!
+            </h3>
+
+          </div>
+          <div class="col-lg-6 text-lg-center btn-wrapper">
+            <a
+              target="_blank"
+              href="https://jq.qq.com/?_wv=1027&k=5ko8Rs1"
+              class="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg"
+              data-toggle="tooltip"
+              data-original-title="Follow us"
+            >
+              <i class="fa fa-qq"></i>
+            </a>
+            <a
+              target="_blank"
+              href="https://www.youtube.com/channel/UCWaS7VDRSGLj0SZXMCwiUiQ/videos"
+              class="btn btn-neutral btn-icon-only btn-facebook btn-round btn-lg"
+              data-toggle="tooltip"
+              data-original-title="Like us"
+            >
+              <i class="fa  fa-youtube-play"></i>
+            </a>
+            <a
+              target="_blank"
+              href="https://space.bilibili.com/97254526"
+              class="btn btn-neutral btn-icon-only btn-dribbble btn-lg btn-round"
+              data-toggle="tooltip"
+              data-original-title="Follow us"
+            >
+              <i class="fa fa-dribbble"></i>
+            </a>
+            <a
+              target="_blank"
+              href="https://github.com/baiyuetribe"
+              class="btn btn-neutral btn-icon-only btn-github btn-round btn-lg"
+              data-toggle="tooltip"
+              data-original-title="Star on Github"
+            >
+              <i class="fa fa-github"></i>
+            </a>
+          </div>
+        </div>
+        <hr />
+        <div class="row align-items-center justify-content-md-between">
+          <div class="col-md-6">
+            <div class="copyright">
+              &copy; 2019
+              <a href="https://baiyue.one" target="_blank"
+                >baiyue.one</a
+              >.
+            </div>
+          </div>
+          <div class="col-md-6">
+            <ul class="nav nav-footer justify-content-end">
+
+              <li class="nav-item">
+                <a
+                  href="https://baiyue.one"
+                  class="nav-link"
+                  target="_blank"
+                  >Blog</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="https://github.com/baiyuetribe"
+                  class="nav-link"
+                  target="_blank"
+                  >MIT License</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Core -->
+  </div>
+</div>
+
+<!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<!-- 由佰阅部落提供。 -->
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script>
+  function setApi(){
+    $("#api").children().remove();
+  var apilist = $("#apiList").val().split(/\r?\n/);
+  for(var i=0;i<apilist.length;i++){
+    $("#api").append("<option>"+apilist[i]+"</option>");
+  }
+  }
+$("#apiList").blur(function(){
+  setApi();
+  $.cookie("apiList",$("#apiList").val());
+});
+$("#play").click(function(){
+  $api = $("#api").val();
+  $url = $("#url").val();
+  if($url == "" || $url == null || !/^http.*$/.test($url)){
+    alert('视频地址不正确！');
+    return;
+  }
+  if($url == "" || $url == null || !/^http.*=$/.test($api)){
+    alert('无效API！');
+    return;
+  }
+  window.open($api+$url);
+});
+  function init(){
+    var ckapi = $.cookie("apiList");
+    if(ckapi && ckapi != ""){
+      $("#apiList").val(ckapi);
+    }
+    setApi();
+  }
+  init();
+  function setDefault(){
+    $.cookie("apiList","");
+    window.location.reload();
+  }
+	console.group("欢迎使用佰阅部落开源程序");
+		console.log("github地址：https://github.com/baiyuetribe/");
+		console.log("QQ交流群: 635925514");
+		console.log("欢迎前来围观、吐槽、点赞、学习、STAR......");
+	console.groupEnd();
+
+	console.group("作者信息");
+		console.log("网名：佰阅部落");
+		console.log("博客：http://baiyue.one");
+	console.groupEnd();  
+</script>
+
+<script src="../assets/vendor/jquery/jquery.min.js"></script>
+<script src="../assets/vendor/popper/popper.min.js"></script>
+<script src="../assets/vendor/bootstrap/bootstrap.min.js"></script>
+<script src="../assets/vendor/headroom/headroom.min.js"></script>
+<script src="../assets/js/argon.min.js"></script>
+
+  </body>
+</html>

@@ -136,6 +136,7 @@ install_kodexplore(){
     echo "默认宿主机目录/opt/kodcloud"
 }
 install_cloudtorrent(){
+    install_docker
     docker run -d -p 4000:3000 -v /opt/torrent/downloads:/downloads jpillora/cloud-torrent
     echo "http://ip:4000"
     echo "本地存储目录：/opt/torrent/downloads"
@@ -224,6 +225,13 @@ install_forsaken-mail(){
     echo "使用前请参考文章：https://baiyue.one/archives/416.html"
 }
 
+install_vipvideo(){
+    install_docker
+    docker run -d -p 9527:80 --name vipvideo baiyuetribe/onekey:vipvideo
+    echo "访问地址：http://ip:9527"
+
+}
+
 #粗略添加23个程序
 #开始菜单
 start_menu(){
@@ -284,6 +292,7 @@ start_menu(){
     white "—————————————杂项——————————————"
     white "701.安装临时邮箱"
     blue "702.安装Meedu付费视频"
+    blue "703.安装全网VIP视频解析"
     white ""
     echo
     echo
@@ -367,7 +376,10 @@ start_menu(){
 	;;
     702)
     install_meedu
-	;;                              
+	;;
+    703)
+    install_vipvideo
+	;;                                    
 	0)
 	exit 1
 	;;
