@@ -153,7 +153,13 @@ install_bt(){
 }
 
 install_aapanel(){
-    "预告"
+    install_docker
+    docker run -tid --name baota --net=host --privileged=true --restart always -v ~/wwwroot:/www/wwwroot pch18/baota
+    echo "源码目录/root/wwwroot"
+    echo "如遇失败，请手动执行如下命令"
+    echo "docker run -tid --name baota -p 80:80 -p 443:443 -p 8888:8888 -p 888:888 --privileged=true --restart always -v ~/wwwroot:/www/wwwroot pch18/baota"
+    echo "初始账号 username"
+    echo "初始密码 password"
 }
 
 install_baiduyunpan(){
@@ -262,7 +268,7 @@ start_menu(){
     echo
     white "—————————————基础环境安装——————————————"
     white "101.安装宝塔面板"
-    blue "102.安装AApanel(宝塔英文版)"
+    blue "102.安装宝塔面板Docker版（LNMP环境，开箱即用）"
     white "103.BBR五合一安装脚本"
     blue "104.服务器推荐购买指南"
     red "105.海鸥Docker容器镜像管理工具（适合新手可视化操作）"
