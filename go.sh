@@ -86,7 +86,7 @@ install_ysfaka(){
 
 install_card_system(){
     install_docker
-    mkdir card && cd card
+    mkdir /opt/card && cd /opt/card
     wget https://raw.githubusercontent.com/Baiyuetribe/card-system/Docker/docker-compose.yml
     docker-compose up -d
     green "等待初始化"
@@ -238,6 +238,15 @@ install_vipvideo(){
 
 }
 
+install_magnetW(){
+    install_docker
+    docker run -d -p 3003:8080 --name=magnetw baiyuetribe/magnetw
+    echo "访问地址：http://ip:3003"
+    echo "文章詳情：https://baiyue.one/archives/1187.html"
+
+}
+
+
 #粗略添加23个程序
 #开始菜单
 start_menu(){
@@ -291,6 +300,7 @@ start_menu(){
     white "—————————————下载类程序——————————————"
     white "501.安装airng+filebrose"
     blue "502.安装CloudTorret"
+    white "503.magnetW磁力搜索"
     white "—————————————发卡类程序——————————————"
     blue "601.安装ZFAKA"
     white "602.安装云尚发卡"
@@ -368,6 +378,9 @@ start_menu(){
     502)
     install_cloudtorrent
 	;;
+    503)
+    install_magnetW
+	;;	
     601)
     install_zfaka
 	;;
