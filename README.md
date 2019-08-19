@@ -27,7 +27,7 @@
 
 `baiyue_onekey`是由佰阅部落自制整理的一些优质开源项目合集一键安装包，绝大多数都已经在博客里详细介绍过搭建及使用方法，部分录制过详细的视频教程，因此程序质量有保障，受众范围广。脚本兼容宝塔面板、ubuntu、centos、debian、树莓派、win10子系统wsl2等。
 
-**欢迎star 点赞支持一下**
+**欢迎star 点赞支持一下,如果你想关注本项目动态，可点watch或fork**
 
 ## 一键脚本
 
@@ -64,6 +64,8 @@ bash <(curl -L -s https://raw.githubusercontent.com/Baiyuetribe/baiyue_onekey/ma
 - [WIN10子系统Ubuntu（wsl2）开启自带的SSH服务](https://baiyue.one/archives/1160.html)
 
 ## 更新日志
+
+2019-8-19 添加magnetW磁力搜
 
 2019-8-3 添加全网VIP解析视频（703）
 
