@@ -9,7 +9,7 @@
 <p align="center">
   借助Docker,在任意设备，共享和运行任何应用程序
   <br>
-  <a href="https://book.baiyue.one/"><strong>查看官方文档（待完善）</strong></a>
+  <a href="https://book.baiyue.one/"><strong>查看官方文档（必读）</strong></a>
   <br>
   <br>
   <a href="https://github.com/Baiyuetribe/baiyue_onekey/issues/new?template=bug.md">反馈 bug</a>
@@ -102,3 +102,8 @@ docker system prune -a
 `/opt/XXX`
 
 
+## 开源项目不易，欢迎积极参与完成说明书编写
+
+参与方法：参考说明书格式，用markdown格式或其它文本编辑，完成后发到这个邮箱：2894049053@qq.com
+
+欢迎积极参与、反馈，一起维护一个项目。
