@@ -68,7 +68,7 @@ install_sspanel(){
 
 install_nextcloud(){
     install_docker
-    mkdrir nextcloud && cd nextcloud	#临时创建nextcloud文件，用于存放启动文件
+    mkdir nextcloud && cd nextcloud	#临时创建nextcloud文件，用于存放启动文件
     wget https://raw.githubusercontent.com/Baiyuetribe/codes/master/nextcloud/docker-compose.yml
     docker-compose up -d
     echo "请访问http://ip/8080"
