@@ -35,7 +35,7 @@
 bash <(curl -L -s https://raw.githubusercontent.com/Baiyuetribe/baiyue_onekey/master/go.sh)
 
 #或者运行：
-bash <(curl -L -s https://git.io/baiyue_onekey)
+bash <(curl -L -s git.io/baiyue_onekey)
 ```
 
 
