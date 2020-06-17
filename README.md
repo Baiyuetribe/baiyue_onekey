@@ -38,6 +38,12 @@ bash <(curl -L -s https://raw.githubusercontent.com/Baiyuetribe/baiyue_onekey/ma
 bash <(curl -L -s git.io/baiyue_onekey)
 ```
 
+## 宝塔面板+LNMP一键脚本(脚本自动执行以前需要手动登陆点击安装的过程)
+
+```
+bash <(curl -L -s https://raw.githubusercontent.com/Baiyuetribe/baiyue_onekey/master/bt.sh)
+```
+
 
 
 ## 已支持25+程序，后续逐步完善
